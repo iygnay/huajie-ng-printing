@@ -86,7 +86,11 @@ gulp.task('rollup:fesm', function () {
             // See "external" in https://rollupjs.org/#core-functionality
             external: [
                 '@angular/core',
-                '@angular/common'
+                '@angular/common',
+                '@angular/router',
+                '@huajie-ng/utils',
+                '@huajie-ng/storage',
+                'url',
             ],
 
             // Format of generated bundle
@@ -121,7 +125,11 @@ gulp.task('rollup:umd', function () {
             // See "external" in https://rollupjs.org/#core-functionality
             external: [
                 '@angular/core',
-                '@angular/common'
+                '@angular/common',
+                '@angular/router',
+                '@huajie-ng/utils',
+                '@huajie-ng/storage',
+                'url',
             ],
 
             // Format of generated bundle

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { PrintWindow } from './print-window';
 import { PrintParams } from './print-params';
 import { dely } from '@huajie-ng/utils';
-import { JsonStorageWrapper } from '@ssm/storage';
+import { JsonStorageWrapper } from '@huajie-ng/storage';
 import { PrinterManager, PageRules } from './printer';
 
 /**

@@ -74,7 +74,11 @@
     "node": ">=6.0.0"
   },
   "dependencies": {
+    "@angular/router": "^4.4.6",
+    "@huajie-ng/storage": "^0.1.0",
+    "@huajie-ng/utils": "^1.0.1",
     "rollup-plugin-local-resolve": "^1.0.7",
-    "typescript": "^2.6.1"
+    "typescript": "^2.6.1",
+    "url": "^0.11.0"
   }
 }

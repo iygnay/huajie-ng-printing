@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { PrintParams } from './print-params';
-import { JsonStorage, JsonStorageWrapper } from '@ssm/storage';
+import { JsonStorage, JsonStorageWrapper } from '@huajie-ng/storage';
 import { Router } from '@angular/router';
 import { Location } from '@angular/common';
 import { resolve } from 'url';
